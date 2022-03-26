@@ -75,7 +75,7 @@ void* random_read(void* p) {
 }
 
 int main() {
-    int client_num = 3;
+    int client_num = 100;
 
     pthread_t w_thread;
     int r = pthread_create(&w_thread, NULL, random_write, (void*)(&global_s));

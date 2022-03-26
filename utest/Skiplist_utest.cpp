@@ -4,6 +4,7 @@
 #include "../src/Skiplist.hpp"
 #include <gtest/gtest.h>
 #include <string>
+#include <climits>
 
 TEST(BaseSerializerTest, SerializeTestKey) {
     BasicSerializer bs;
